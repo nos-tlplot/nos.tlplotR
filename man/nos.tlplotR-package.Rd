@@ -17,6 +17,7 @@ reviews and meta-analyses.
 
 The package supports:
 \itemize{
+\item every plot at once, via \code{\link[=plot_all]{plot_all()}};
 \item the NOS visualization grid, via \code{\link[=plot_nos_visualization]{plot_nos_visualization()}};
 \item the traffic-light bubble plot, via \code{\link[=plot_traffic_light]{plot_traffic_light()}};
 \item domain and theme radar charts, via \code{\link[=plot_domain_radar]{plot_domain_radar()}} and

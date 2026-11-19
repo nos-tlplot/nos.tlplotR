@@ -38,4 +38,5 @@ references:
     title: "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'"
     version: "0.2.0"
     year: 2026
-    url: "https://github.com/nos-tlplot/nos.tlplotR"
+    doi: "10.5281/zenodo.24382618"
+    url: "https://doi.org/10.5281/zenodo.24382618"

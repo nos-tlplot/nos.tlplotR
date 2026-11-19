@@ -4,12 +4,14 @@
 
 <!-- badges: start -->
 [![nos-tlplot DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24380517.svg)](https://doi.org/10.5281/zenodo.24380517)
+[![nos.tlplotR DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24382618.svg)](https://doi.org/10.5281/zenodo.24382618)
 <!-- badges: end -->
 
 **nos.tlplotR** is an open-source **R package** for visualizing **Newcastle-Ottawa Scale (NOS) risk-of-bias assessments** in systematic reviews and meta-analyses — the official R interface to [**nos-tlplot**](https://nos-tlplot.github.io). It produces **publication-ready traffic-light plots** and **thirteen specialized visualizations**:
 
 | Function | Plot |
 |---|---|
+| `plot_all()` | Every plot at once |
 | `plot_nos_visualization()` | NOS visualization grid (item-level traffic-light grid with domain bands and totals) |
 | `plot_traffic_light()` | Classic traffic-light bubble plot |
 | `plot_domain_radar()` | Domain radar chart (up to 5 studies) |
@@ -259,6 +261,28 @@ for (theme in c("traffic_light", "gray", "ocean", "sage")) {
   )
 }
 ```
+
+### Generate everything at once
+
+`plot_all()` mirrors the `nos-tlplot` command line: one call writes the
+traffic-light bubble plot to `output_file` plus the twelve companion
+figures next to it (`_radar`, `_theme_radar`, `_heatmap`, `_item_heatmap`,
+`_dot_profile`, `_table`, `_donut`, `_line_ordered`, `_lollipop`, `_pie`,
+`_stacked_area`, `_nos_plot`), and returns their paths:
+
+```r
+files <- plot_all(
+  input_file  = system.file("extdata", "sample_nos.csv", package = "nos.tlplotR"),
+  output_file = "nos.png"
+)
+
+files
+#> [1] ".../nos.png"            ".../nos_heatmap.png"
+#> [3] ".../nos_item_heatmap.png" "..."
+```
+
+Radar charts are included when there are at most 5 studies and skipped
+with a message otherwise.
 
 ### Radar plots and the 5-study limit
 
@@ -652,8 +676,8 @@ If you want to cite the code specifically, cite the NOS-TLPlot software:
 and, optionally, the R interface itself:
 
 > Sahu, V. (2026). *nos.tlplotR: Visualize Newcastle-Ottawa Scale
-> Risk-of-Bias Assessments with 'nos-tlplot'* (v0.2.0).
-> <https://github.com/nos-tlplot/nos.tlplotR>
+> Risk-of-Bias Assessments with 'nos-tlplot'* (v0.2.0). Zenodo.
+> <https://doi.org/10.5281/zenodo.24382618>
 
 ```bibtex
 @software{sahu2026nostlplotr,
@@ -661,7 +685,8 @@ and, optionally, the R interface itself:
   title = {nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'},
   year = {2026},
   version = {0.2.0},
-  url = {https://github.com/nos-tlplot/nos.tlplotR}
+  doi = {10.5281/zenodo.24382618},
+  url = {https://doi.org/10.5281/zenodo.24382618}
 }
 ```
 

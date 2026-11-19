@@ -33,5 +33,6 @@ bibentry(
   author = person("Vihaan", "Sahu"),
   year = "2026",
   note = "R package version 0.2.0",
-  url = "https://github.com/nos-tlplot/nos.tlplotR"
+  doi = "10.5281/zenodo.24382618",
+  url = "https://doi.org/10.5281/zenodo.24382618"
 )

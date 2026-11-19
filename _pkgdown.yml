@@ -39,6 +39,7 @@ reference:
     path of the file they created, invisibly.
 - subtitle: Flagship plots
   contents:
+  - plot_all
   - plot_nos_visualization
   - plot_traffic_light
 - subtitle: Domain-level summaries

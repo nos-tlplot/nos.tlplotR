@@ -10,6 +10,7 @@
 #'
 #' The package supports:
 #'
+#' * every plot at once, via [plot_all()];
 #' * the NOS visualization grid, via [plot_nos_visualization()];
 #' * the traffic-light bubble plot, via [plot_traffic_light()];
 #' * domain and theme radar charts, via [plot_domain_radar()] and
