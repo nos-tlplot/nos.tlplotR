@@ -5,6 +5,35 @@ template:
   bootswatch: flatly
   params:
     bootswatch: flatly
+  includes:
+    in_header: |
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "nos.tlplotR",
+        "alternateName": "nos-tlplot R package",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Cross-platform",
+        "softwareVersion": "0.3.0",
+        "programmingLanguage": "R",
+        "description": "Open-source R package (the official R interface to the Python package nos-tlplot) for publication-ready traffic-light plots and thirteen specialized visualizations of Newcastle-Ottawa Scale risk-of-bias assessments in systematic reviews and meta-analyses.",
+        "url": "https://nos-tlplot.github.io/nos.tlplotR/",
+        "keywords": "Newcastle-Ottawa Scale, NOS, risk of bias, systematic reviews, meta-analysis, traffic-light plot, data visualization, R package, CRAN",
+        "author": {
+          "@type": "Person",
+          "name": "Vihaan Sahu",
+          "url": "https://github.com/aurumz-rgb"
+        },
+        "license": "https://opensource.org/licenses/Apache-2.0",
+        "sameAs": [
+          "https://github.com/nos-tlplot/nos.tlplotR",
+          "https://cran.r-project.org/package=nos.tlplotR",
+          "https://doi.org/10.5281/zenodo.24382618",
+          "https://pypi.org/project/nos-tlplot/"
+        ]
+      }
+      </script>
 
 footer:
   structure:

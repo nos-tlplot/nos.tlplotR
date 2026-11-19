@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use nos.tlplotR in a publication, the preferred citation is the NOS-TLPlot metapaper (see preferred-citation). The references cover the software and the R interface for code-specific citations."
 title: "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'"
-version: "0.2.0"
+version: "0.3.0"
 date-released: 2026-11-20
 authors:
   - family-names: "Sahu"
@@ -36,7 +36,7 @@ references:
       - family-names: "Sahu"
         given-names: "Vihaan"
     title: "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'"
-    version: "0.2.0"
+    version: "0.3.0"
     year: 2026
     doi: "10.5281/zenodo.24382618"
     url: "https://doi.org/10.5281/zenodo.24382618"

@@ -70,7 +70,7 @@ remotes::install_github("nos-tlplot/nos.tlplotR")
 ### From a source tarball
 
 ```r
-install.packages("nos.tlplotR_0.2.0.tar.gz", repos = NULL, type = "source")
+install.packages("nos.tlplotR_0.3.0.tar.gz", repos = NULL, type = "source")
 ```
 
 ### Install the Python backend manually
@@ -676,7 +676,7 @@ If you want to cite the code specifically, cite the NOS-TLPlot software:
 and, optionally, the R interface itself:
 
 > Sahu, V. (2026). *nos.tlplotR: Visualize Newcastle-Ottawa Scale
-> Risk-of-Bias Assessments with 'nos-tlplot'* (v0.2.0). Zenodo.
+> Risk-of-Bias Assessments with 'nos-tlplot'* (v0.3.0). Zenodo.
 > <https://doi.org/10.5281/zenodo.24382618>
 
 ```bibtex
@@ -684,7 +684,7 @@ and, optionally, the R interface itself:
   author = {Sahu, Vihaan},
   title = {nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'},
   year = {2026},
-  version = {0.2.0},
+  version = {0.3.0},
   doi = {10.5281/zenodo.24382618},
   url = {https://doi.org/10.5281/zenodo.24382618}
 }

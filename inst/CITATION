@@ -32,7 +32,7 @@ bibentry(
   title = "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'",
   author = person("Vihaan", "Sahu"),
   year = "2026",
-  note = "R package version 0.2.0",
+  note = "R package version 0.3.0",
   doi = "10.5281/zenodo.24382618",
   url = "https://doi.org/10.5281/zenodo.24382618"
 )

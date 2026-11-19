@@ -1,4 +1,4 @@
-# nos.tlplotR 0.2.0
+# nos.tlplotR 0.3.0
 
 * Initial CRAN submission.
 * R interface to the Python package 'nos-tlplot' (>= 3.0.2) for
