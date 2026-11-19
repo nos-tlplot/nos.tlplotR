@@ -1,0 +1,38 @@
+{
+  "title": "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'",
+  "description": "<p><strong>nos.tlplotR</strong> is an R interface to the Python package <a href=\"https://pypi.org/project/nos-tlplot/\">nos-tlplot</a>. It creates publication-ready traffic-light plots and thirteen specialized visualizations for Newcastle-Ottawa Scale (NOS) risk-of-bias assessments in systematic reviews and meta-analyses, including domain and theme radars, item-level star heatmaps, stacked star profiles, donut charts, lollipop charts, star matrices and the NOS visualization grid.</p><p>Plots are produced by nos-tlplot through the reticulate package.</p>",
+  "creators": [
+    {
+      "name": "Sahu, Vihaan",
+      "orcid": "0009-0008-5790-1818",
+      "affiliation": "nos-tlplot"
+    }
+  ],
+  "upload_type": "software",
+  "version": "0.2.0",
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Newcastle-Ottawa Scale",
+    "NOS",
+    "risk of bias",
+    "systematic reviews",
+    "meta-analysis",
+    "traffic-light plot",
+    "R",
+    "data visualization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.24380517",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://pypi.org/project/nos-tlplot/",
+      "relation": "references",
+      "resource_type": "software"
+    }
+  ]
+}

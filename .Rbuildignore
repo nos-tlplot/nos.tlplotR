@@ -1,0 +1,11 @@
+^LICENSE\.md$
+^CITATION\.cff$
+^nos\.tlplotR\.Rcheck$
+^nos\.tlplotR_[0-9.]+\.tar\.gz$
+^cran-comments\.md$
+^\.github$
+^\.zenodo\.json$
+^figures-gallery\.R$
+^_pkgdown\.yml$
+^pkgdown$
+^docs$

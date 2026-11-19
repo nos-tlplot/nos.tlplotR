@@ -1,0 +1,23 @@
+citHeader(
+  "When using nos.tlplotR, please cite the original NOS-TLPlot software.",
+  "The second entry is the optional citation for the R interface."
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = "NOS-TLPlot: Visualization Tool for Newcastle-Ottawa Scale in Meta-Analysis",
+  author = person("Vihaan", "Sahu"),
+  year = "2026",
+  note = "Version 3.0.2",
+  doi = "10.5281/zenodo.24380517",
+  url = "https://doi.org/10.5281/zenodo.24380517"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'",
+  author = person("Vihaan", "Sahu"),
+  year = "2026",
+  note = "R package version 0.2.0",
+  url = "https://github.com/nos-tlplot/nos.tlplotR"
+)

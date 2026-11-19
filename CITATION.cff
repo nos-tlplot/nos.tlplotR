@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use nos.tlplotR, please cite the original NOS-TLPlot software (see references). The preferred citation below is for the R interface."
+title: "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'"
+version: "0.2.0"
+date-released: 2026-11-20
+authors:
+  - family-names: "Sahu"
+    given-names: "Vihaan"
+    orcid: "https://orcid.org/0009-0008-5790-1818"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Sahu"
+      given-names: "Vihaan"
+      orcid: "https://orcid.org/0009-0008-5790-1818"
+  title: "nos.tlplotR: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'"
+  version: "0.2.0"
+  year: 2026
+  url: "https://github.com/nos-tlplot/nos.tlplotR"
+references:
+  - type: software
+    authors:
+      - family-names: "Sahu"
+        given-names: "Vihaan"
+    title: "NOS-TLPlot: Visualization Tool for Newcastle-Ottawa Scale in Meta-Analysis"
+    version: "v3.0.2"
+    year: 2026
+    doi: "10.5281/zenodo.24380517"
+    url: "https://doi.org/10.5281/zenodo.24380517"

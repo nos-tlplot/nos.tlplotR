@@ -1,0 +1,38 @@
+Package: nos.tlplotR
+Type: Package
+Title: Visualize Newcastle-Ottawa Scale Risk-of-Bias Assessments with 'nos-tlplot'
+Version: 0.2.0
+Authors@R:
+    person(
+        given = "Vihaan",
+        family = "Sahu",
+        role = c("aut", "cre"),
+        email = "pteroisvolitans12@gmail.com",
+        comment = c(ORCID = "0009-0008-5790-1818")
+    )
+Description: Creates publication-ready traffic-light plots and thirteen
+    specialized visualizations for Newcastle-Ottawa Scale (NOS) risk-of-bias
+    assessments in systematic reviews and meta-analyses, including domain
+    radars, item-level star heatmaps, stacked star profiles, donut charts,
+    lollipop charts, star matrices and the NOS visualization grid.
+    Provides an R interface to the Python package 'nos-tlplot' (version
+    3.0.2 or later) with four colour themes and export to 'png', 'pdf',
+    'svg' and 'tiff'. Plots are produced by 'nos-tlplot' through the
+    'reticulate' package.
+License: Apache License 2.0
+Language: en-GB
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+Depends:
+    R (>= 4.3.0)
+Imports:
+    reticulate (>= 1.41.0)
+Suggests:
+    readxl,
+    testthat (>= 3.1.10)
+SystemRequirements: Python (>= 3.12)
+URL: https://github.com/nos-tlplot/nos.tlplotR,
+    https://pypi.org/project/nos-tlplot/
+BugReports: https://github.com/nos-tlplot/nos.tlplotR/issues
+Config/roxygen2/version: 8.1.1
