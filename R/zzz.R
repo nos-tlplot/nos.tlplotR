@@ -79,7 +79,11 @@ get_nos_tlplot_module <- function() {
     )
   }
 
-  module <- reticulate::import("nos_tlplot")
+  # convert = FALSE keeps DataFrames on the Python side between the read,
+  # the validation and the plot call, so the plots match the Python package
+  # exactly (integer stars stay integers instead of becoming doubles on the
+  # R round trip).
+  module <- reticulate::import("nos_tlplot", convert = FALSE)
   .nos_tlplot_env$module <- module
   module
 }
