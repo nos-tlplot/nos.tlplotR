@@ -4,7 +4,6 @@
 
 <!-- badges: start -->
 [![nos-tlplot DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24380517.svg)](https://doi.org/10.5281/zenodo.24380517)
-[![R-CMD-check](https://github.com/nos-tlplot/nos.tlplotR/actions/workflows/rhub.yaml/badge.svg)](https://github.com/nos-tlplot/nos.tlplotR/actions)
 <!-- badges: end -->
 
 **nos.tlplotR** is an open-source **R package** for visualizing **Newcastle-Ottawa Scale (NOS) risk-of-bias assessments** in systematic reviews and meta-analyses — the official R interface to [**nos-tlplot**](https://nos-tlplot.github.io). It produces **publication-ready traffic-light plots** and **thirteen specialized visualizations**:
