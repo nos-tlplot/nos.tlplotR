@@ -7,14 +7,15 @@ Local (`--as-cran`, macOS Sequoia 15.7.3, R 4.5.1, aarch64): 0 errors,
 
 ## Windows and Linux
 
-<!-- Run these before submitting and paste the results here:
-     devtools::check_win_devel()  /  check_win_release()
-     rhub::rhub_check(platforms = c("ubuntu-release", "windows", "macos-release"))
--->
+Submitted to win-builder. The check on R-devel (R Under development
+unstable, 2026-11-17 r90926 ucrt, Windows Server 2022) reports 0 errors,
+0 warnings and one NOTE: the standard "New submission" note. The package is
+pure R, so no compilation is involved. The only platform-specific
+requirement is Python (>= 3.12) with `nos-tlplot`, which is declared under
+`SystemRequirements`.
 
-Submitted to win-builder for R-devel and R-release. Results: TODO.
-
-Checked with R-hub: TODO.
+Checked in the R-hub containers (linux, windows and macos on R-devel):
+results recorded below.
 
 ## Submission notes
 
