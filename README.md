@@ -175,12 +175,12 @@ data. The console shows the exact calls; the figure underneath is the file
 the function returned.
 
 <figure>
-  <img src="man/figures/nos-visualization.png" width="800" alt="R console running plot_nos_visualization() from the nos.tlplotR R package, producing the NOS visualization grid" />
+  <img src="https://nos-tlplot.github.io/nos.tlplotR/screenshots/demo-nos-visualization.png" width="800" alt="R console running plot_nos_visualization() from the nos.tlplotR R package, producing the NOS visualization grid" />
   <figcaption><strong>NOS visualization grid</strong> — <code>plot_nos_visualization()</code>: item-level traffic-light grid with domain bands, totals and overall judgements.</figcaption>
 </figure>
 
 <figure>
-  <img src="man/figures/traffic-light.png" width="800" alt="R console running plot_traffic_light() from the nos.tlplotR R package, producing the classic NOS traffic-light bubble plot" />
+  <img src="https://nos-tlplot.github.io/nos.tlplotR/screenshots/demo-traffic-light.png" width="800" alt="R console running plot_traffic_light() from the nos.tlplotR R package, producing the classic NOS traffic-light bubble plot" />
   <figcaption><strong>Traffic-light bubble plot</strong> — <code>plot_traffic_light()</code>.</figcaption>
 </figure>
 

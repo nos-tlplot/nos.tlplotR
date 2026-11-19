@@ -58,3 +58,6 @@ reference:
   - plot_lollipop
   - plot_domain_radar
   - plot_theme_radar
+- title: About
+  contents:
+  - nos.tlplotR-package

@@ -1,0 +1,10 @@
+/* The hex logo is already shown in the page header on the home page, so the
+   README's inline copy would duplicate it there. GitHub keeps the inline one. */
+main img[src="reference/figures/logo.png"] {
+  display: none;
+}
+
+/* Space out the README gallery figures */
+main figure {
+  margin-block: 1.5rem;
+}

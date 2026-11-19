@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0f2027"/><stop offset="0.5" stop-color="#203a43"/><stop offset="1" stop-color="#2c5364"/>
+</linearGradient></defs>
+<polygon points="60,2 118,37 118,103 60,138 2,103 2,37" fill="#ffffff"/>
+<polygon points="60,8 112,40 112,100 60,132 8,100 8,40" fill="url(#g)"/>
+<rect x="42" y="28" width="36" height="76" rx="9" fill="#31353d" stroke="#191b1f" stroke-width="3.5"/>
+<circle cx="60" cy="44" r="11.5" fill="#E06C5A" stroke="#191b1f" stroke-width="3"/>
+<circle cx="60" cy="66" r="11.5" fill="#EDA338" stroke="#191b1f" stroke-width="3"/>
+<circle cx="60" cy="88" r="11.5" fill="#4EAA55" stroke="#191b1f" stroke-width="3"/>
+<text x="60" y="49" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">N</text>
+<text x="60" y="71" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">O</text>
+<text x="60" y="93" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">S</text>
+</svg>
