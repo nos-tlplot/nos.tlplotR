@@ -1,6 +1,6 @@
-# nos.tlplotR
+<img src="man/figures/logo.png" width="180" alt="nos.tlplotR logo" />
 
-<img src="man/figures/logo.png" align="right" width="180" alt="nos.tlplotR logo" />
+# nos.tlplotR
 
 <!-- badges: start -->
 [![nos-tlplot DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24380517.svg)](https://doi.org/10.5281/zenodo.24380517)
