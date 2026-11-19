@@ -1,0 +1,60 @@
+url: https://nos-tlplot.github.io/nos.tlplotR/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  params:
+    bootswatch: flatly
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with
+  components:
+    developed_by: >
+      nos.tlplotR is developed by
+      <a href="https://github.com/aurumz-rgb">Vihaan Sahu</a>.
+      Plots are produced by the Python package
+      <a href="https://nos-tlplot.github.io">nos-tlplot</a>.
+
+home:
+  title: "nos.tlplotR: R package for Newcastle-Ottawa Scale risk-of-bias plots"
+  description: "nos.tlplotR is an open-source R package (the official R interface to nos-tlplot) for publication-ready traffic-light plots and thirteen specialized visualizations of Newcastle-Ottawa Scale risk-of-bias assessments."
+  links:
+  - text: NOS-TLPlot website
+    href: https://nos-tlplot.github.io
+  - text: Python nos-tlplot package
+    href: https://pypi.org/project/nos-tlplot/
+  - text: Package repository
+    href: https://github.com/nos-tlplot/NOS-TLPlot-Package
+  - text: Main NOS-TLPlot repository
+    href: https://github.com/aurumz-rgb/NOS-TLPlot
+
+reference:
+- title: Plot functions
+  desc: >
+    Each function reads a data frame or a `.csv`/`.xls`/`.xlsx` file with
+    Newcastle-Ottawa Scale data and writes one publication-ready
+    visualization. All functions share the same interface and return the
+    path of the file they created, invisibly.
+- subtitle: Flagship plots
+  contents:
+  - plot_nos_visualization
+  - plot_traffic_light
+- subtitle: Domain-level summaries
+  contents:
+  - plot_domain_heatmap
+  - plot_dot_profile
+  - plot_score_table
+  - plot_stacked_area
+- subtitle: Item-level plots
+  contents:
+  - plot_item_heatmap
+  - plot_star_matrix
+- subtitle: Distributions
+  contents:
+  - plot_donut
+  - plot_risk_pie
+  - plot_lollipop
+  - plot_domain_radar
+  - plot_theme_radar
