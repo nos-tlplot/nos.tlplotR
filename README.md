@@ -612,8 +612,28 @@ The full theme list is <code>"traffic_light"</code>, <code>"gray"</code>,
 
 ## Citation
 
-If you use the plots in a publication, please cite the original NOS-TLPlot
-software:
+If you use the plots in a publication, the **preferred citation** is the
+NOS-TLPlot metapaper:
+
+> Sahu, V. (2026). *NOS-TLPlot: A Specialized Python Tool for Visualizing
+> Newcastle-Ottawa Scale Risk-of-Bias Assessments*. Journal of Open Research
+> Software, 14(1), 7. <https://doi.org/10.5334/jors.635>
+
+```bibtex
+@article{sahu2026jors,
+  author = {Sahu, Vihaan},
+  title = {NOS-TLPlot: A Specialized Python Tool for Visualizing Newcastle-Ottawa Scale Risk-of-Bias Assessments},
+  journal = {Journal of Open Research Software},
+  volume = {14},
+  number = {1},
+  pages = {7},
+  year = {2026},
+  doi = {10.5334/jors.635},
+  url = {https://doi.org/10.5334/jors.635}
+}
+```
+
+If you want to cite the code specifically, cite the NOS-TLPlot software:
 
 > Sahu, V. (2026). *NOS-TLPlot: Visualization Tool for Newcastle-Ottawa
 > Scale in Meta-Analysis* (v3.0.2). Zenodo.
@@ -630,7 +650,7 @@ software:
 }
 ```
 
-If you want to cite the R interface itself as well:
+and, optionally, the R interface itself:
 
 > Sahu, V. (2026). *nos.tlplotR: Visualize Newcastle-Ottawa Scale
 > Risk-of-Bias Assessments with 'nos-tlplot'* (v0.2.0).
@@ -646,7 +666,7 @@ If you want to cite the R interface itself as well:
 }
 ```
 
-`citation("nos.tlplotR")` returns both citations, and the package citation
+`citation("nos.tlplotR")` returns these citations, and the package citation
 metadata is available at
 <https://github.com/nos-tlplot/nos.tlplotR/blob/main/CITATION.cff>.
 

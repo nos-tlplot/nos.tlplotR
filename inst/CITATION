@@ -1,6 +1,20 @@
 citHeader(
-  "When using nos.tlplotR, please cite the original NOS-TLPlot software.",
-  "The second entry is the optional citation for the R interface."
+  "When using nos.tlplotR in a publication, the preferred citation is the",
+  "NOS-TLPlot metapaper. The other entries cover the software and the R",
+  "interface if you want to cite the code specifically."
+)
+
+bibentry(
+  bibtype = "Article",
+  title = "NOS-TLPlot: A Specialized Python Tool for Visualizing Newcastle-Ottawa Scale Risk-of-Bias Assessments",
+  author = person("Vihaan", "Sahu"),
+  journal = "Journal of Open Research Software",
+  volume = "14",
+  number = "1",
+  pages = "7",
+  year = "2026",
+  doi = "10.5334/jors.635",
+  url = "https://doi.org/10.5334/jors.635"
 )
 
 bibentry(
