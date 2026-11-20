@@ -52,6 +52,8 @@
 
 ### From CRAN
 
+The CRAN submission is in progress. Once it is accepted:
+
 ```r
 install.packages("nos.tlplotR")
 ```
