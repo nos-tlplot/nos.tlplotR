@@ -179,7 +179,7 @@ recommend that a file or class name and description of purpose be included on
 the same “printed page” as the copyright notice for easier identification within
 third-party archives.
 
-    Copyright 2026 Vihaan Sahu
+    Copyright 2025-2026 Vihaan Sahu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -194,4 +194,4 @@ third-party archives.
     limitations under the License.
 
 
-Copyright 2026 Vihaan Sahu
+Copyright 2025-2026 Vihaan Sahu
